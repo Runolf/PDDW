@@ -8,7 +8,7 @@ define('USER',3);
 
 session_start(); // On démarre toujours la session
 
-define('ROOT_PATH', "/PDDW/"); // Chemin qui suit le nom de domaine. Exemple: http://monprojet.local/09_mvc/ le path a indiqué sera donc '/09_mvc/'
+define('ROOT_PATH', "/PDDWJulien/"); // Chemin qui suit le nom de domaine. Exemple: http://monprojet.local/09_mvc/ le path a indiqué sera donc '/09_mvc/'
 
 $request = str_replace(ROOT_PATH, "", $_SERVER['REQUEST_URI']); // On récupère juste la request, sans le chemin du dossier.
 
